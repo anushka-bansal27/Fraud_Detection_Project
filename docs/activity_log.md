@@ -23,3 +23,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-01-11`: Improve test coverage for fraud probability calculation
 - `2025-01-13`: Fix minor formatting typo in README
 - `2025-01-13`: Tune decision threshold to minimize false positives
+- `2025-01-13`: Refactor rules engine preprocessing steps
