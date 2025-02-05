@@ -65,3 +65,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-02-04`: Tune decision threshold to minimize false positives
 - `2025-02-04`: Refactor rules engine preprocessing steps
 - `2025-02-04`: Update mock transaction generator for local testing
+- `2025-02-05`: Enhance ROC-AUC metric reporting in evaluation pipeline
