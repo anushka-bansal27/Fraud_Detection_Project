@@ -123,3 +123,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-03-03`: Update environment variables documentation
 - `2025-03-04`: Add integration test for batch evaluation workflow
 - `2025-03-04`: Refactor feature extraction pipeline
+- `2025-03-05`: Update transaction risk scoring thresholds
