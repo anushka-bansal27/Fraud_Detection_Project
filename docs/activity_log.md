@@ -150,3 +150,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-03-19`: Optimize database query helpers for transaction lookup
 - `2025-03-19`: Refine isolation forest contamination parameter
 - `2025-03-20`: Update deployment configuration for staging environment
+- `2025-03-21`: Add sanity checks for negative transaction amounts
