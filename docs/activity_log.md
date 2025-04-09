@@ -180,3 +180,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-04-07`: Document endpoint request and response schemas
 - `2025-04-08`: Optimize memory usage during feature transformation
 - `2025-04-08`: Add cross-validation evaluation script
+- `2025-04-09`: Improve test coverage for fraud probability calculation
