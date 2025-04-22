@@ -204,3 +204,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-04-20`: Add integration test for batch evaluation workflow
 - `2025-04-21`: Refactor feature extraction pipeline
 - `2025-04-22`: Update transaction risk scoring thresholds
+- `2025-04-22`: Add unit tests for anomaly detection logic
