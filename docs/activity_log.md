@@ -217,3 +217,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-05-01`: Implement sliding window statistics for user history
 - `2025-05-01`: Refactor model inference latency benchmarks
 - `2025-05-02`: Add error boundary handling for corrupted records
+- `2025-05-02`: Document endpoint request and response schemas
