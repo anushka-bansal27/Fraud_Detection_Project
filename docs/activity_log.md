@@ -236,3 +236,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-05-07`: Clean up temporary test artifacts and caches
 - `2025-05-07`: Update sample transactions dataset with new edge cases
 - `2025-05-08`: Add automated test runner configuration
+- `2025-05-08`: Refactor feature scaler to handle out-of-range values
