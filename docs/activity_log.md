@@ -246,3 +246,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-05-13`: Update transaction risk scoring thresholds
 - `2025-05-13`: Add unit tests for anomaly detection logic
 - `2025-05-13`: Optimize data loading and batch processing
+- `2025-05-13`: Improve input validation on transaction API
