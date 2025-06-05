@@ -273,3 +273,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-05-31`: Add sanity checks for negative transaction amounts
 - `2025-05-31`: Refactor model serialization and checkpoint loading
 - `2025-06-02`: Improve responsiveness of prediction status endpoint
+- `2025-06-05`: Clean up temporary test artifacts and caches
