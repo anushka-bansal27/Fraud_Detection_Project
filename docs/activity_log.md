@@ -318,3 +318,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-06-27`: Add automated test runner configuration
 - `2025-06-29`: Refactor feature scaler to handle out-of-range values
 - `2025-06-29`: Improve error reporting when model weights are missing
+- `2025-06-30`: Add descriptive comments to transaction classification rules
