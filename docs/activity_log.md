@@ -330,3 +330,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-07-05`: Tune hyperparameters for gradient boosted classifier
 - `2025-07-06`: Update project documentation and setup guides
 - `2025-07-07`: Fix edge case in missing value imputation
+- `2025-07-07`: Add confusion matrix visualization helpers
