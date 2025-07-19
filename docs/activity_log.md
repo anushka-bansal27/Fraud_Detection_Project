@@ -351,3 +351,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-07-17`: Refine isolation forest contamination parameter
 - `2025-07-18`: Update deployment configuration for staging environment
 - `2025-07-19`: Add sanity checks for negative transaction amounts
+- `2025-07-19`: Refactor model serialization and checkpoint loading
