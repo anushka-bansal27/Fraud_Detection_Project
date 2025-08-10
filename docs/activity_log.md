@@ -382,3 +382,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-08-06`: Add cross-validation evaluation script
 - `2025-08-08`: Improve test coverage for fraud probability calculation
 - `2025-08-08`: Fix minor formatting typo in README
+- `2025-08-10`: Tune decision threshold to minimize false positives
