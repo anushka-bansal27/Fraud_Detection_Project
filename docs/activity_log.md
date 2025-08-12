@@ -386,3 +386,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-08-10`: Refactor rules engine preprocessing steps
 - `2025-08-11`: Update mock transaction generator for local testing
 - `2025-08-12`: Enhance ROC-AUC metric reporting in evaluation pipeline
+- `2025-08-12`: Add type hints and docstrings across helper modules
