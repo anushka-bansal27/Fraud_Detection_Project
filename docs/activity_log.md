@@ -389,3 +389,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-08-12`: Add type hints and docstrings across helper modules
 - `2025-08-13`: Optimize database query helpers for transaction lookup
 - `2025-08-13`: Refine isolation forest contamination parameter
+- `2025-08-14`: Update deployment configuration for staging environment
