@@ -395,3 +395,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-08-15`: Improve responsiveness of prediction status endpoint
 - `2025-08-16`: Clean up temporary test artifacts and caches
 - `2025-08-17`: Update sample transactions dataset with new edge cases
+- `2025-08-17`: Add automated test runner configuration
