@@ -408,3 +408,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-08-26`: Optimize data loading and batch processing
 - `2025-08-26`: Improve input validation on transaction API
 - `2025-08-27`: Tune hyperparameters for gradient boosted classifier
+- `2025-08-28`: Update project documentation and setup guides
