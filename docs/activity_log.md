@@ -412,3 +412,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-08-28`: Fix edge case in missing value imputation
 - `2025-08-29`: Add confusion matrix visualization helpers
 - `2025-08-29`: Clean up redundant imports and format codebase
+- `2025-08-30`: Enhance logging for suspicious transaction alerts
