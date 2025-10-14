@@ -481,3 +481,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-10-12`: Add descriptive comments to transaction classification rules
 - `2025-10-12`: Optimize matrix multiplication in score aggregator
 - `2025-10-13`: Update environment variables documentation
+- `2025-10-14`: Add integration test for batch evaluation workflow
