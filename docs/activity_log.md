@@ -547,3 +547,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-11-17`: Update mock transaction generator for local testing
 - `2025-11-17`: Enhance ROC-AUC metric reporting in evaluation pipeline
 - `2025-11-17`: Add type hints and docstrings across helper modules
+- `2025-11-18`: Optimize database query helpers for transaction lookup
