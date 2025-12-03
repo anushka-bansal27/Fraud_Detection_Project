@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Fraud Detector</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        /* FIX UNDERLINE PROBLEM */
+        button, label, input, h1, h2, h3, p {
+            text-decoration: none !important;
+        }
+        a {
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1>💳 Credit Card Fraud Detector</h1>
+            <p class="subtitle">Machine Learning-Based Transaction Analysis</p>
+        </header>
+
+        <div class="content">
+
+            <div class="info-card">
+                <h3>📋 Instructions</h3>
+                <p>Enter transaction details below. The ML model will analyze the transaction and predict fraud.</p>
+                <p class="note"><strong>Note:</strong> Uses Kaggle Credit Card Fraud Dataset.</p>
+            </div>
+
+            <!-- Form -->
+            <div class="form-card">
+                <h2>Transaction Details</h2>
+
+                <form id="fraud-form">
+
+                    <div class="form-section">
+                        <h3>Basic Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="time">Time</label>
+                                <input type="number" id="time" name="Time" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Amount ($)</label>
+                                <input type="number" id="amount" name="Amount" step="0.01" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PCA V1-V28 (unchanged) -->
+                    <div class="form-section">
+                        <h3>PCA Features (V1-V28)</h3>
+                        <div class="form-grid">
+
+                            <!-- I kept all V1-V28 inputs exactly as you had -->
+
+                            {% for i in range(1, 29) %}
+                            <div class="form-group">
+                                <label for="V{{ i }}">V{{ i }}</label>
+                                <input type="number" id="V{{ i }}" name="V{{ i }}" step="any" required>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit" class="btn btn-predict">🔍 Analyze Transaction</button>
+                        <button type="button" class="btn btn-sample" id="sample-btn">📝 Load Sample Data</button>
+                        <button type="reset" class="btn btn-reset">🔄 Clear Form</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- Result -->
+            <div class="result-card" id="result-card" style="display:none;">
+                <h2>Analysis Result</h2>
+                <div class="prediction-box" id="prediction-box">
+                    <div class="prediction-label" id="prediction-label"></div>
+                    <div class="probability-info">
+                        Fraud Probability: <span id="probability-value">0%</span>
+                    </div>
+                </div>
+
+                <p><strong>Amount:</strong> $<span id="result-amount">0</span></p>
+                <p id="message-box"></p>
+            </div>
+
+            <!-- Loading -->
+            <div class="loading" id="loading" style="display:none;">
+                <div class="spinner"></div>
+                <p>Analyzing transaction...</p>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <p>🎓 Machine Learning Mini Project</p>
+        </footer>
+    </div>
+
+    <!-- JAVASCRIPT (LOAD LAST!) -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
