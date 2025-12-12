@@ -588,3 +588,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-12-12`: Enhance ROC-AUC metric reporting in evaluation pipeline
 - `2025-12-12`: Add type hints and docstrings across helper modules
 - `2025-12-12`: Optimize database query helpers for transaction lookup
+- `2025-12-12`: Refine isolation forest contamination parameter
