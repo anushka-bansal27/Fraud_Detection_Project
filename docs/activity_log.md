@@ -590,3 +590,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2025-12-12`: Optimize database query helpers for transaction lookup
 - `2025-12-12`: Refine isolation forest contamination parameter
 - `2025-12-14`: Update deployment configuration for staging environment
+- `2025-12-14`: Add sanity checks for negative transaction amounts
