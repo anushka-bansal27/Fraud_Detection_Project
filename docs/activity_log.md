@@ -637,3 +637,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2026-01-11`: Update sample transactions dataset with new edge cases
 - `2026-01-11`: Add automated test runner configuration
 - `2026-01-11`: Refactor feature scaler to handle out-of-range values
+- `2026-01-12`: Improve error reporting when model weights are missing
