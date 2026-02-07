@@ -684,3 +684,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2026-02-03`: Add integration test for batch evaluation workflow
 - `2026-02-05`: Refactor feature extraction pipeline
 - `2026-02-06`: Update transaction risk scoring thresholds
+- `2026-02-07`: Add unit tests for anomaly detection logic
