@@ -803,3 +803,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2026-04-15`: Update environment variables documentation
 - `2026-04-15`: Add integration test for batch evaluation workflow
 - `2026-04-16`: Refactor feature extraction pipeline
+- `2026-04-17`: Update transaction risk scoring thresholds
