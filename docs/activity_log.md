@@ -824,3 +824,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2026-04-24`: Fix minor formatting typo in README
 - `2026-04-24`: Tune decision threshold to minimize false positives
 - `2026-04-25`: Refactor rules engine preprocessing steps
+- `2026-04-27`: Update mock transaction generator for local testing
