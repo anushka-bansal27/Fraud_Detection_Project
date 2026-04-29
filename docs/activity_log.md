@@ -830,3 +830,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2026-04-27`: Optimize database query helpers for transaction lookup
 - `2026-04-28`: Refine isolation forest contamination parameter
 - `2026-04-29`: Update deployment configuration for staging environment
+- `2026-04-29`: Add sanity checks for negative transaction amounts
