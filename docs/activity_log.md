@@ -901,3 +901,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2026-06-05`: Optimize memory usage during feature transformation
 - `2026-06-06`: Add cross-validation evaluation script
 - `2026-06-07`: Improve test coverage for fraud probability calculation
+- `2026-06-07`: Fix minor formatting typo in README
