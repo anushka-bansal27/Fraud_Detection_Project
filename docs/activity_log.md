@@ -960,3 +960,4 @@ Continuous development, optimization, model tuning, and documentation logs.
 - `2026-07-20`: Improve error reporting when model weights are missing
 - `2026-07-21`: Add descriptive comments to transaction classification rules
 - `2026-07-21`: Optimize matrix multiplication in score aggregator
+- `2026-07-21`: Update environment variables documentation
